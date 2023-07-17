@@ -14,7 +14,7 @@ const root = ReactDOM.createRoot(
 );
 let persistor=persistStore(store)
 
-axios.defaults.baseURL="https://classified-server.herokuapp.com"
+axios.defaults.baseURL="https://classifyserv.onrender.com"
 // axios.defaults.baseURL="http://localhost:8800"
 
 root.render(
